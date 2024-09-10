@@ -1,0 +1,5 @@
+# Backpropagation
+
+Backpropagation is the primary method used to train artificail neural networks.
+
+Initially the neurons in the network are all set with a series of random weights. During the training phase information is passed through the network and the initial weights are applied to the information as it flows from layer to layer. The difference between the ideal state and the observed results is measured and then each of the weights is adjusted using a gradient loss function. It is called backpropogation because it is calculated by applying the loss function starting from the output layer and working its way back through then network to the input layer. My understanding is that by calculating the gradient of the error at each stage they can determine how much each weight contributed to the error and then adjust it accordingly.
